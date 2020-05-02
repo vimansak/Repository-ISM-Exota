@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite -Smoke Tests]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ism.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Exota Smoke Test(failed)">
+    <classes>
+      <class name="com.ism.testcases.RegisterPageTest">
+        <methods>
+          <include name="createNewAccount"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ism.testcases.RegisterPageTest -->
+      <class name="com.ism.testcases.LoginPageTest">
+        <methods>
+          <include name="sucessfullyLogin"/>
+          <include name="sucessfullyLogin2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ism.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Exota Smoke Test(failed) -->
+</suite> <!-- Failed suite [Test Suite -Smoke Tests] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite-Language pop up]">
+  <test name="Language pop up test(failed)">
+    <parameter name="country" value="Netherlands"/>
+    <parameter name="language" value="NL"/>
+    <classes>
+      <class name="com.ism.testcases.LoginPageTest">
+        <methods>
+          <include name="sucessfullyNavigatetoTheLoginPage"/>
+          <include name="sucessfullyLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ism.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Language pop up test(failed) -->
+</suite> <!-- Failed suite [suite-Language pop up] -->

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test Suite -Smoke Tests">
+<listeners>
+		<listener class-name="com.ism.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  <test name="Exota Smoke Test" >
+    <classes>
+       <class name="com.ism.testcases.LoginPageTest" />
+       <class name="com.ism.testcases.RegisterPageTest" />
+    </classes>
+  </test>
+</suite>

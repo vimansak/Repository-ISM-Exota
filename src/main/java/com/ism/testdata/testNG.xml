@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite-LoginPage test"> 
+    <test name="Language pop up test">
+        <parameter name="country"  value="Netherlands" />
+        <parameter name="language"  value="NL" />
+      </test> 
+      
+    <test name="Login test">
+        <parameter name="username"  value="d.kamaradiwala@ism-apac.com" />
+        <parameter name="password"  value="welcome@123" />
+      </test>  
+        <classes>
+            <class name="com.ism.testcases.LoginPageTest"/>
+        </classes>    
+  
+</suite>
+
