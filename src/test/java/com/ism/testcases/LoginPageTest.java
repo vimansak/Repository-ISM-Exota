@@ -13,7 +13,7 @@ import com.ism.pages.LoginPage;
 
 import atu.testrecorder.exceptions.ATUTestRecorderException;
 
-
+//test
 
 public class LoginPageTest extends BaseTest {
 	
