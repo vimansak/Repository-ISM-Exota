@@ -19,7 +19,7 @@ import atu.testrecorder.exceptions.ATUTestRecorderException;
 
 public class LoginPage extends BaseTest{
 	
-	//pagefactory or
+	//testgfdg
 	
 
 	/* @FindBy(how=How.ID,using="userName")
